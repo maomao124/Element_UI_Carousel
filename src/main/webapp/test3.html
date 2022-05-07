@@ -2,12 +2,12 @@
 
 <!--
 Project name(项目名称)：Element_UI_Carousel
-  File name(文件名): test2
+  File name(文件名): test3
   Authors(作者）: mao
   Author QQ：1296193245
   GitHub：https://github.com/maomao124/
   Date(创建日期)： 2022/5/7
-  Time(创建时间)： 19:24
+  Time(创建时间)： 19:27
   Description(描述)： 无
 -->
 
@@ -26,7 +26,7 @@ Project name(项目名称)：Element_UI_Carousel
 
 <div id="app">
 
-    <el-carousel trigger="click" height="950px">
+    <el-carousel indicator-position="outside" height="900px"  trigger="hover" >
         <el-carousel-item v-for="item in photos">
             <!--<img :src="'photos/'+item" :alt="item">-->
             <el-image :src="'photos/'+item"></el-image>
